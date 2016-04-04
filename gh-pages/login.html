@@ -1,0 +1,132 @@
+	
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In - ISTS</title>
+
+    <link href="assets/css/screen.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="login">
+
+<div class="jumbotron one">
+  <div class="container">
+    <div class="row">
+    	<h1>Log In</h1>
+		<h3>If you are a returning user, log into your account below.</h3>
+    </div>
+  </div>
+</div>
+
+<div class="container main">
+	<form class="form-horizontal" action="index.html">
+	    <div class="form-group">
+	      <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+	      <div class="col-sm-9">
+	        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+	      </div>
+	    </div>
+		<div class="form-group">
+		  <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+		  <div class="col-sm-9">
+		    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+		  </div>
+		</div>
+		<div class="form-group">
+		  <div class="col-sm-12">
+		  	<a href="#" class="forgot-password-link" data-toggle="modal" data-target="#ForgotPasswordModal">I forgot my password</a>
+		  </div>
+		  <div class="col-sm-9">
+		    <div class="checkbox">
+		      <label>
+		        <input type="checkbox"> Keep me logged in
+		      </label>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		  	<a href="#" class="more-info-link" data-toggle="modal" data-target="#WhatsThisModal">What's this?</a>
+		  </div>
+		</div>
+		<button type="submit" class="btn btn-lg btn-primary btn-block">Log In</button>
+		<a href="register.html" class="other-link">Don't have an account? Register!</a>
+	</form>
+</div>
+
+
+<!-- Whats This Modal -->
+<div class="modal fade" id="WhatsThisModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title">Keep me logged in</h1>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-body">
+        <p>Check the "Keep me logged in" box to be automatically logged in when you return to this site in the future.</p>
+
+<p>Uncheck this box if you are accessing your account from a public or shared computer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Forgot Password Modal -->
+<div class="modal fade" id="ForgotPasswordModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title">Forgot Password</h1>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-body">
+        <p>To reset your password, enter your email address below:</p>
+
+<p>We will send you an email immediately with instructions on how to reset your password.</p>
+
+	<form class="form-horizontal">
+	  <div class="form-group">
+	    <div class="col-sm-9">
+	      <input type="email" class="form-control" id="inputEmail3" placeholder="Enter your email address">
+	    </div>
+	    <div class="col-sm-3">
+	    	<a href="#" class="btn btn-primary btn-block reset-pw-btn">Submit</a>
+	    </div>
+	  </div>
+	</form>
+
+<p>Forgot your email address or no longer have access to it? <a href="http://www.applyists.com/contact-us/contact-us-customer-care/" target="_blank">Click here to contact Customer Care.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+	<div class="container">
+	    <a class="powered-by" href="index.html">
+	    	POWERED BY
+	    	<img src="assets/images/logo.png" />
+	    </a>
+	    <ul class="footer-menu pull-right">
+	    	<li><a href="http://istscustomercare.com/" target="_blank">Help</a></li>
+	    	<li><a href="#">FAQ</a></li>
+	    	<li><a href="blank.html">Privacy Policy</a></li>
+	    </ul>
+	</div>
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/min/aim-min.js"></script>
+  </body>
+</html>

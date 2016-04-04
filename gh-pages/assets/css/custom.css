@@ -1,0 +1,23 @@
+.btn-primary {
+  background-color: #E51837;
+  border-color: #E51837; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+    background-color: #E51837;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    opacity: 0.85; }
+
+.form-control:focus {
+  border-color: #E51837; }
+
+a {
+  color: #E51837; }
+
+h4 {
+  border-bottom-color: #E51837; }
+
+.branding {
+  background-color: #E51837; }
+
+.navbar ul.nav li.user-profile-badge a:hover {
+  background-color: #E51837;
+  border-color: #E51837; }
