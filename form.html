@@ -1,0 +1,425 @@
+	
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Example - ISTS</title>
+
+    <link href="assets/css/screen.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="form">
+  <div class="global-alert closed success">This is an example of a positive alert 🎉</div>
+
+<nav class="navbar">
+  <div class="container">
+  	<div class="row">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="index.html"><img src="assets/images/tesla.png" /></a>
+	    </div>
+	    <div id="navbar" class="navbar-collapse collapse pull-right">
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="http://istscustomercare.com/" target="_blank">Help</a></li>
+	        <li><a href="login.html">Log Out</a></li>
+	        <li class="user-profile-badge"><a href="profile.html" class="clearfix"><img src="assets/images/avatar.png" /><div>Example User<span>edit profile</span></div></a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+  	</div>
+  </div>
+</nav>
+
+
+
+<div class="jumbotron branding">
+  <div class="container">
+    <div class="row">
+    	<h1>Form title here</h1>
+		<h3>Jelly jelly dragée topping pudding jelly cake wafer cotton candy.</h3>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-sidebar-menu">
+	
+	<a href="#" class="current-page">Select Section<i class="fa fa-caret-down"></i></a>
+	<div class="dropdown-area">
+		<ul class="closed">
+	  	    <li><a href="welcome-form.html">Welcome</a></li>
+	  	    <li class="active"><a href="#">Applicant</a></li>
+	  	    <li><a href="#">Academics</a></li>
+	  	    <li><a href="#">Employment</a></li>
+	  	    <li><a href="#">Financial</a></li>
+	  	    <li><a href="#">Resume</a></li>
+	  	    <li><a href="#">Essay</a></li>
+	  	    <li><a href="#">Recommendations</a></li>
+	  	    <li><a href="#">Review and Submit</a></li>
+	  	</ul>
+	</div>
+</div>
+
+<div class="container main">
+  
+  <div class="row">
+  	<div class="col-sm-8 col-md-9 form-contentarea">
+	  	<div class="home-cta">
+	  		<a href="#" class="btn btn-md btn-primary">FAQ</a>
+	  	</div>
+  		<div class="main-title-row"><h4>Applicant Demographics</h4></div>
+  		<form class="form-horizontal">
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+		    <div class="col-sm-9">
+		      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+		      <p class="alert bg-danger">This is not an email address. Please double check it.</p>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+		    <div class="col-sm-9">
+		      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+		      <span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="textareaExample" class="col-sm-3 control-label">Textarea</label>
+		    <div class="col-sm-9">
+		      <textarea class="form-control" id="textareaExample"></textarea>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="essayExample" class="col-sm-3 control-label">Essay</label>
+		    <div class="col-sm-9">
+		      <div class="essay-box">
+		      	<div class="limit">Word Limit: 300</div>
+		      	<div class="count">Word Count: <span id="Count299">0</span></div>
+		      	<textarea class="form-control" id="essayExample" rows="10" maxlength="8000"></textarea>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Checkbox</label>
+		    <div class="col-sm-9">
+		    	<div class="checkbox">
+				  <label>
+				    <input type="checkbox" value="">
+				    Option one is this and that&mdash;be sure to include why it's great
+				  </label>
+				</div>
+				<div class="checkbox disabled">
+				  <label>
+				    <input type="checkbox" value="" disabled>
+				    Option two is disabled
+				  </label>
+				</div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Radio</label>
+		    <div class="col-sm-9">
+		    	<div class="radio">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+				    Option one is this and that&mdash;be sure to include why it's great
+				  </label>
+				</div>
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+				    Option two can be something else and selecting it will deselect option one
+				  </label>
+				</div>
+				<div class="radio disabled">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+				    Option three is disabled
+				  </label>
+				</div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Select</label>
+		    <div class="col-sm-9">
+		    	<select class="form-control">
+				  <option>1</option>
+				  <option>2</option>
+				  <option>3</option>
+				  <option>4</option>
+				  <option>5</option>
+				</select>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Upload file</label>
+		    <div class="col-sm-9">
+		    	<p>Select the corresponding item in the drop down and click Browse to locate the file saved on your computer.</p>
+		    </div>
+		    
+		    <div class="col-lg-7 pd-top-20">
+		    	<select class="form-control">
+				  <option>Select</option>
+				  <option>College / University Transcript</option>
+				  <option>1040 (eligible employee's-first page only showing AGI)</option>
+				</select>
+		    </div>
+		    <div class="col-lg-5 pd-top-20">
+				<a href="#" class="btn btn-md btn-gray upload-btn">Choose file</a>
+				<a href="#" class="btn btn-md btn-gray upload-btn">Upload</a>
+		    </div>
+		    <div class="col-sm-12 pd-top-20">
+		    	<div class="table-responsive">
+			  		<table class="table">
+				      <thead>
+				        <tr>
+				          <th>&nbsp;</th>
+				          <th>Type</th>
+				          <th>File</th>
+				          <th>Uploaded</th>
+				        </tr>
+				      </thead>
+				      <tbody>
+				        <tr>
+				          <th scope="row"><a href="#" class="btn-sm btn-gray">Delete</a></th>
+				          <td>High School/Secondary Record</td>
+				          <td><a href="#">Chrysanthemum.jpg</a></td>
+				          <td>9/8/2015 11:27:58 AM</td>
+				        </tr>
+				      </tbody>
+				    </table>
+			  	</div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-3 control-label">Static field</label>
+		    <div class="col-sm-9">
+				<p class="form-control-static">email@example.com</p>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-3 col-sm-9">
+		      <div class="checkbox">
+		        <label>
+		          <input type="checkbox"> Additional option / checkbox
+		        </label>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  
+		  <div class="main-title-row"><h4>Table Example</h4></div>
+		  
+	  	<div class="table-responsive">
+	  		<table class="table">
+		      <thead>
+		        <tr>
+		          <th>Honor or Award</th>
+		          <th>Level</th>
+		          <th>Level</th>
+		          <th>Level</th>
+		          <th>Level</th>
+		          <th>Number of Years Achieved</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		        <tr>
+		          <th scope="row">
+		      <input type="text" class="form-control"></th>
+		          <td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+		          <td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="Less than 1">Less than 1</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="8 +">8 +</option>
+</select>
+		          </td>
+		        </tr>
+		        <tr>
+		          <th scope="row">
+		      <input type="text" class="form-control"></th>
+		          <td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+				<td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="National">National</option>
+				  <option value="State">State</option>
+				  <option value="Region">Region</option>
+				  <option value="District">District</option>
+				  <option value="County">County</option>
+				  <option value="City">City</option>
+				  <option value="School">School</option>
+				</select></td>
+		          <td><select class="form-control">
+		          <option value="">Select</option>
+				  <option value="Less than 1">Less than 1</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="8 +">8 +</option>
+</select>
+		          </td>
+		        </tr>
+		      </tbody>
+		    </table>
+	  	</div>
+	  	<a href="#" class="btn btn-sm btn-gray">Add New</a>
+		  
+		  <div class="main-title-row"><h4>Choose a Language</h4></div>
+		<p>This application is provided in several different languages. Please select your language below.</p>
+		<a href="#" class="btn btn-md btn-primary language-btn">English</a>
+		<a href="#" class="btn btn-md btn-gray language-btn">Spanish</a>
+		<a href="#" class="btn btn-md btn-gray language-btn">Italian</a>
+		<a href="#" class="btn btn-md btn-gray language-btn">Mandarin</a>
+		
+		  <div class="main-title-row"><h4>Welcome demo</h4></div>
+		  <p>Welcome and thank you for your interest in the National Scholarship Providers Scholarship Program.</p>
+
+		<p>NSPA is dedicated to giving young people every opportunity to be prepared for tomorrow's workplace. NSPA is committed to using its resources to motivate young people to achieve their potential, to be involved in their schools, and to be catalysts for positive change in their communities. The National Scholarship Providers Scholarship Program, recognizes students who exemplify these skills and abilities throughout their high school careers, and who serve as models for their fellow students.</p>
+		
+		<p>At NSPA, it is our privilege and responsibility to do what we can to make our community a better place. We believe that our commitment to young people today will help build leaders for our communities in the future.</p>
+		
+		<p>Before proceeding, review and print the FAQ document linked above labeled "Click for help."</p>
+		
+		<p>Complete the application process promptly. You may complete the online application in any order you prefer. Data is automatically saved as you move from one page to the next. You may exit at any time and return to make changes or complete the process until December 5, 2013. You must click the 'Submit' button on the Terms and Conditions/Submit page for your application to be accepted.</p>
+		
+		<p>Deadline extensions will not be granted.</p>
+		
+		<p>If you have questions or need help, click on the help link available on each page of the application.</p>
+		</form>
+  	</div>
+  	<div id="sidebar-stick"></div>
+  	<div class="col-sm-3 sidebar">
+  		<div class="content">
+  			<ul>
+  				<li><a href="welcome-form.html">Welcome</a></li>
+  				<li class="active"><a href="#">Applicant</a></li>
+  				<li><a href="#">Academics</a></li>
+  				<li><a href="#">Employment</a></li>
+  				<li><a href="#">Financial</a></li>
+  				<li><a href="#">Resume</a></li>
+  				<li><a href="#">Essay</a></li>
+  				<li><a href="#">Recommendations</a></li>
+  				<li><a href="#">Review and Submit</a></li>
+  			</ul>
+  		</div>
+  		<div class="formnav">
+  			<a class="btn btn-lg btn-gray back-btn" href="welcome-form.html"><i class="fa fa-chevron-left"></i> <span>Back</span></a>
+  			<a class="btn btn-lg btn-primary next-btn" href="#"><span>Next</span> <i class="fa fa-chevron-right"></i></a>
+  			<div class="clearfix"></div>
+  	</div>
+  	
+  </div>
+  </div>
+  
+</div>
+  
+<footer>
+	<div class="container">
+	    <a class="powered-by" href="index.html">
+	    	POWERED BY
+	    	<img src="assets/images/logo.png" />
+	    </a>
+	    <ul class="footer-menu pull-right">
+	    	<li><a href="http://istscustomercare.com/" target="_blank">Help</a></li>
+	    	<li><a href="#">FAQ</a></li>
+	    	<li><a href="blank.html">Privacy Policy</a></li>
+	    </ul>
+	</div>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/min/aim-min.js"></script>
+  </body>
+</html>
